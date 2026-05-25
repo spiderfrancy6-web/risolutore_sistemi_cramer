@@ -130,7 +130,7 @@ if st.button("Risolvi con Cramer", key="solve_cramer", type="primary"):
                 )
 
             if all_ok:
-                st.success("Verifica superata — tutte le equazioni sono soddisfatte.")
+                st.success("Verifica superata - Sistema risolto correttamente")
             else:
                 st.warning("Attenzione: una o più equazioni non sono verificate.")
 
@@ -138,5 +138,5 @@ if st.button("Risolvi con Cramer", key="solve_cramer", type="primary"):
         st.error(f"Errore: {e}")
 
 st.divider()
-st.caption("Programmato con il linguaggio python")
-st.caption("Moduli usati: Streamlit & Sympy")
+st.caption("Sviluppato con il linguaggio python, con i moduli Streamlit & Sympy")
+st.caption("Made by SpiderFrancy")
